@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ChatPhoneApp</string>
+    <string name="Username">Username</string>
+    <string name="Room">RoomName</string>
+    <string name="Button">Enter</string>
+    <string name="EnterMessage">EnterMessage</string>
+</resources>

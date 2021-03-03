@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-10-19T17:09:09.961165Z</date>
+  <millis>1603127349961</millis>
+  <nanos>165000</nanos>
+  <sequence>0</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.ChatServer</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>running</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:17.688272Z</date>
+  <millis>1603127357688</millis>
+  <nanos>272000</nanos>
+  <sequence>2</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>15</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:17.688272Z</date>
+  <millis>1603127357688</millis>
+  <nanos>272000</nanos>
+  <sequence>1</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>14</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:17.693561Z</date>
+  <millis>1603127357693</millis>
+  <nanos>561000</nanos>
+  <sequence>3</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>14</thread>
+  <message>request type: GET resource: /</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:17.694891Z</date>
+  <millis>1603127357694</millis>
+  <nanos>891000</nanos>
+  <sequence>4</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>14</thread>
+  <message>serving index.html</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:17.699074Z</date>
+  <millis>1603127357699</millis>
+  <nanos>74000</nanos>
+  <sequence>5</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>14</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:17.701082Z</date>
+  <millis>1603127357701</millis>
+  <nanos>82000</nanos>
+  <sequence>6</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>14</thread>
+  <message>served: index.html</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:17.748674Z</date>
+  <millis>1603127357748</millis>
+  <nanos>674000</nanos>
+  <sequence>7</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>15</thread>
+  <message>request type: GET resource: /chat.js</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:17.749800Z</date>
+  <millis>1603127357749</millis>
+  <nanos>800000</nanos>
+  <sequence>8</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>15</thread>
+  <message>serving /chat.js</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:17.751177Z</date>
+  <millis>1603127357751</millis>
+  <nanos>177000</nanos>
+  <sequence>9</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>15</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:17.752670Z</date>
+  <millis>1603127357752</millis>
+  <nanos>670000</nanos>
+  <sequence>10</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>15</thread>
+  <message>served: /chat.js</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:17.758692Z</date>
+  <millis>1603127357758</millis>
+  <nanos>692000</nanos>
+  <sequence>11</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>16</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:17.760792Z</date>
+  <millis>1603127357760</millis>
+  <nanos>792000</nanos>
+  <sequence>12</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>16</thread>
+  <message>request type: GET resource: /</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:17.763774Z</date>
+  <millis>1603127357763</millis>
+  <nanos>774000</nanos>
+  <sequence>13</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>getResponseHeader</method>
+  <thread>16</thread>
+  <message>reponse header: HTTP/1.1 101 Switching Protocols
+Upgrade: websocket
+Connection: Upgrade
+Sec-WebSocket-Accept: om60fTBrp4zHh5uCIatC5/9NjZ8=
+
+</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:17.764907Z</date>
+  <millis>1603127357764</millis>
+  <nanos>907000</nanos>
+  <sequence>14</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>16</thread>
+  <message>websocket response sent</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:17.769626Z</date>
+  <millis>1603127357769</millis>
+  <nanos>626000</nanos>
+  <sequence>15</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serve</method>
+  <thread>16</thread>
+  <message>websocket serving</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:36.981299Z</date>
+  <millis>1603127376981</millis>
+  <nanos>299000</nanos>
+  <sequence>16</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>17</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:36.983475Z</date>
+  <millis>1603127376983</millis>
+  <nanos>475000</nanos>
+  <sequence>17</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>processWebSocket</method>
+  <thread>16</thread>
+  <message>message length: 8</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:36.983498Z</date>
+  <millis>1603127376983</millis>
+  <nanos>498000</nanos>
+  <sequence>18</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>17</thread>
+  <message>request type: GET resource: /Chat.html</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:36.985246Z</date>
+  <millis>1603127376985</millis>
+  <nanos>246000</nanos>
+  <sequence>19</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>17</thread>
+  <message>serving /Chat.html</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:36.986919Z</date>
+  <millis>1603127376986</millis>
+  <nanos>919000</nanos>
+  <sequence>20</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>17</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:36.989681Z</date>
+  <millis>1603127376989</millis>
+  <nanos>681000</nanos>
+  <sequence>21</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>17</thread>
+  <message>served: /Chat.html</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:40.088645Z</date>
+  <millis>1603127380088</millis>
+  <nanos>645000</nanos>
+  <sequence>22</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>processWebSocket</method>
+  <thread>16</thread>
+  <message>message length: 8</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:40.100074Z</date>
+  <millis>1603127380100</millis>
+  <nanos>74000</nanos>
+  <sequence>23</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Room</class>
+  <method>postMessage</method>
+  <thread>16</thread>
+  <message>message posted, 1 users in room</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:54.191379Z</date>
+  <millis>1603127394191</millis>
+  <nanos>379000</nanos>
+  <sequence>24</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>processWebSocket</method>
+  <thread>16</thread>
+  <message>message length: 2</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:54.193556Z</date>
+  <millis>1603127394193</millis>
+  <nanos>556000</nanos>
+  <sequence>25</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serve</method>
+  <thread>16</thread>
+  <message>connection closed</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:55.354286Z</date>
+  <millis>1603127395354</millis>
+  <nanos>286000</nanos>
+  <sequence>26</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>18</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:55.354433Z</date>
+  <millis>1603127395354</millis>
+  <nanos>433000</nanos>
+  <sequence>27</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>19</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:55.549236Z</date>
+  <millis>1603127395549</millis>
+  <nanos>236000</nanos>
+  <sequence>28</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>20</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:55.551761Z</date>
+  <millis>1603127395551</millis>
+  <nanos>761000</nanos>
+  <sequence>29</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>20</thread>
+  <message>request type: GET resource: /</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:55.554583Z</date>
+  <millis>1603127395554</millis>
+  <nanos>583000</nanos>
+  <sequence>30</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>getResponseHeader</method>
+  <thread>20</thread>
+  <message>reponse header: HTTP/1.1 101 Switching Protocols
+Upgrade: websocket
+Connection: Upgrade
+Sec-WebSocket-Accept: 0x9Ze7GyiCWhRAihmBby0SmhAdA=
+
+</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:55.556438Z</date>
+  <millis>1603127395556</millis>
+  <nanos>438000</nanos>
+  <sequence>31</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>20</thread>
+  <message>websocket response sent</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:55.563638Z</date>
+  <millis>1603127395563</millis>
+  <nanos>638000</nanos>
+  <sequence>32</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serve</method>
+  <thread>20</thread>
+  <message>websocket serving</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:59.384265Z</date>
+  <millis>1603127399384</millis>
+  <nanos>265000</nanos>
+  <sequence>33</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>processWebSocket</method>
+  <thread>20</thread>
+  <message>message length: 8</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:59.390376Z</date>
+  <millis>1603127399390</millis>
+  <nanos>376000</nanos>
+  <sequence>34</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>18</thread>
+  <message>request type: GET resource: /Chat.html</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:59.392027Z</date>
+  <millis>1603127399392</millis>
+  <nanos>27000</nanos>
+  <sequence>35</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>18</thread>
+  <message>serving /Chat.html</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:59.393410Z</date>
+  <millis>1603127399393</millis>
+  <nanos>410000</nanos>
+  <sequence>36</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>18</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2020-10-19T17:09:59.396015Z</date>
+  <millis>1603127399396</millis>
+  <nanos>15000</nanos>
+  <sequence>37</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>18</thread>
+  <message>served: /Chat.html</message>
+</record>
+<record>
+  <date>2020-10-19T17:20:06.501398Z</date>
+  <millis>1603128006501</millis>
+  <nanos>398000</nanos>
+  <sequence>38</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>processWebSocket</method>
+  <thread>20</thread>
+  <message>message length: 2</message>
+</record>
+<record>
+  <date>2020-10-19T17:20:06.504296Z</date>
+  <millis>1603128006504</millis>
+  <nanos>296000</nanos>
+  <sequence>39</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serve</method>
+  <thread>20</thread>
+  <message>connection closed</message>
+</record>
+<record>
+  <date>2020-10-19T17:20:07.942200Z</date>
+  <millis>1603128007942</millis>
+  <nanos>200000</nanos>
+  <sequence>40</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>21</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2020-10-19T17:20:07.942492Z</date>
+  <millis>1603128007942</millis>
+  <nanos>492000</nanos>
+  <sequence>41</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>22</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2020-10-19T17:20:08.068226Z</date>
+  <millis>1603128008068</millis>
+  <nanos>226000</nanos>
+  <sequence>42</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>23</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2020-10-19T17:20:08.071116Z</date>
+  <millis>1603128008071</millis>
+  <nanos>116000</nanos>
+  <sequence>43</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>23</thread>
+  <message>request type: GET resource: /</message>
+</record>
+<record>
+  <date>2020-10-19T17:20:08.073505Z</date>
+  <millis>1603128008073</millis>
+  <nanos>505000</nanos>
+  <sequence>44</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>getResponseHeader</method>
+  <thread>23</thread>
+  <message>reponse header: HTTP/1.1 101 Switching Protocols
+Upgrade: websocket
+Connection: Upgrade
+Sec-WebSocket-Accept: O45S8QWum7s6Y6+Ly7BpxZbRri8=
+
+</message>
+</record>
+<record>
+  <date>2020-10-19T17:20:08.074772Z</date>
+  <millis>1603128008074</millis>
+  <nanos>772000</nanos>
+  <sequence>45</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>23</thread>
+  <message>websocket response sent</message>
+</record>
+<record>
+  <date>2020-10-19T17:20:08.078027Z</date>
+  <millis>1603128008078</millis>
+  <nanos>27000</nanos>
+  <sequence>46</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serve</method>
+  <thread>23</thread>
+  <message>websocket serving</message>
+</record>
+<record>
+  <date>2020-10-19T17:20:12.504363Z</date>
+  <millis>1603128012504</millis>
+  <nanos>363000</nanos>
+  <sequence>47</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>processWebSocket</method>
+  <thread>23</thread>
+  <message>message length: 6</message>
+</record>
+<record>
+  <date>2020-10-19T17:20:12.512141Z</date>
+  <millis>1603128012512</millis>
+  <nanos>141000</nanos>
+  <sequence>48</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>21</thread>
+  <message>request type: GET resource: /Chat.html</message>
+</record>
+<record>
+  <date>2020-10-19T17:20:12.512915Z</date>
+  <millis>1603128012512</millis>
+  <nanos>915000</nanos>
+  <sequence>49</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>21</thread>
+  <message>serving /Chat.html</message>
+</record>
+<record>
+  <date>2020-10-19T17:20:12.513538Z</date>
+  <millis>1603128012513</millis>
+  <nanos>538000</nanos>
+  <sequence>50</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>21</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2020-10-19T17:20:12.515070Z</date>
+  <millis>1603128012515</millis>
+  <nanos>70000</nanos>
+  <sequence>51</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>21</thread>
+  <message>served: /Chat.html</message>
+</record>
+<record>
+  <date>2020-10-19T17:20:16.463992Z</date>
+  <millis>1603128016463</millis>
+  <nanos>992000</nanos>
+  <sequence>52</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>processWebSocket</method>
+  <thread>23</thread>
+  <message>message length: 12</message>
+</record>
+<record>
+  <date>2020-10-19T17:20:16.468129Z</date>
+  <millis>1603128016468</millis>
+  <nanos>129000</nanos>
+  <sequence>53</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Room</class>
+  <method>postMessage</method>
+  <thread>23</thread>
+  <message>message posted, 1 users in room</message>
+</record>
+<record>
+  <date>2020-10-19T17:20:39.839625Z</date>
+  <millis>1603128039839</millis>
+  <nanos>625000</nanos>
+  <sequence>54</sequence>
+  <logger>chatserver</logger>
+  <level>WARNING</level>
+  <class>chatserver.Connection</class>
+  <method>processWebSocket</method>
+  <thread>23</thread>
+  <message>message error: </message>
+  <exception>
+    <message>chatserver.BadRequestException: frame headernull</message>
+    <frame>
+      <class>chatserver.WebSockets</class>
+      <method>getMessageType</method>
+      <line>19</line>
+    </frame>
+    <frame>
+      <class>chatserver.Connection</class>
+      <method>processWebSocket</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>chatserver.Connection</class>
+      <method>serve</method>
+      <line>111</line>
+    </frame>
+    <frame>
+      <class>chatserver.ChatServer$1</class>
+      <method>run</method>
+      <line>58</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>832</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2020-10-19T17:20:39.844934Z</date>
+  <millis>1603128039844</millis>
+  <nanos>934000</nanos>
+  <sequence>55</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serve</method>
+  <thread>23</thread>
+  <message>connection closed</message>
+</record>
+</log>
