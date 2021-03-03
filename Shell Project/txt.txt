@@ -1,0 +1,8 @@
+Hello World this is a really long filme so I can see if my pipes work correctly which they probaly will not. Implement background commands. If a command runs in the background, the shell should not wait for it to complete before letting the user enter another command. After the user types a new command and presses enter, the shell should check to see if any backgrounded commands have completed and an informative message saying so. The user indicates that a command should be bTest in small pieces (always)!
+There's lots of tricky bits to futz with that your classmates have probably dealt with, or will have to deal with, so talk to each other + TA!
+man pages are a good resource (if boring and sometimes hard to read).
+EVERY SYSTEM CALL RETURN VALUE SHOULD BE CHECKED! For this assignment, if something goes wrong: log it with perror() and clean up (close open file descriptors, etc).
+Have fun! You're doing something really cool here, apeter to execvp expects the last pointer in the list to be null.
+I was unable to call exec without using const_cast. This works like static_cast, but it adds/removes const. This is generally a bad thing to do, however, since exec will overwrite the whole program memory, we really don't care about the const-ness of our argv array.
+argv[0] should be the name of the program being run
+The provided code should be helpful for doing some of the necessary text processing, and should fill in the command struct correctly without any I/O redirection
